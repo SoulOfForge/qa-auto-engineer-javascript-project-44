@@ -1,4 +1,7 @@
 #!/usr/bin/env node
-import * as cli from '../src/cli.js'
-console.log("Welcome to the Brain Games!");
-cli.greetings();
+import greetings from '../src/cli.js';
+import guessEven from './brain-even.js';
+
+console.log('Welcome to the Brain Games!');
+greetings();
+guessEven();
