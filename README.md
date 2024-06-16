@@ -5,3 +5,4 @@
 [Example Of BrainCalc work](https://asciinema.org/a/NAk80v5se4c1bQyI0HgGGfLxM)
 [Example Of BrainGCD work](https://asciinema.org/a/erpInHEAMlev47Z67VPL16voN)
 [Example Of BrainGCD work](https://asciinema.org/a/vuvf3U5KAmQqfW5yw9fAPU87Y)
+[Example Of BrainPrime work](https://asciinema.org/a/34ZYnDMUBmpK1NlAG4jv3BvYX)
