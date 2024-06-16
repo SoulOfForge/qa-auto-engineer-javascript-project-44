@@ -28,9 +28,7 @@ export default () => {
             else if(userAns.toLowerCase() === "no"){
                 console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.`);
             }
-            else{
-                console.log(`you should answer "yes" or "no" only.`);
-            }
+            console.log(`Let's try again, ${name}!`)
             return 0;
         }
     }

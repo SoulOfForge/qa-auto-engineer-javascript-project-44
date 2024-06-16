@@ -20,6 +20,7 @@ export default () => {
             else{
                 console.log(`'no' is wrong answer ;(. Correct answer was 'yes'.`);
             }
+            console.log(`Let's try again, ${name}!`)
             return 0;
         }
     }
