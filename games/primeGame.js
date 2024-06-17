@@ -26,10 +26,10 @@ export default () => {
       } else if (userAns.toLowerCase() === 'no') {
         console.log('\'no\' is wrong answer ;(. Correct answer was \'yes\'.');
       }
-      console.log(`Let's try again, ${getName}!`);
+      console.log(`Let's try again, ${getName()}!`);
       return 0;
     }
   }
-  console.log(`Congratulations, ${getName}!`);
+  console.log(`Congratulations, ${getName()}!`);
   return 0;
 };

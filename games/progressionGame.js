@@ -27,10 +27,10 @@ export default () => {
       console.log('Correct!');
     } else {
       console.log(`'${userAns}' is wrong answer ;(. Correct answer was '${progressionAns}'.`);
-      console.log(`Let's try again, ${getName}!`);
+      console.log(`Let's try again, ${getName()}!`);
       return 0;
     }
   }
-  console.log(`Congratulations, ${getName}!`);
+  console.log(`Congratulations, ${getName()}!`);
   return 0;
 };

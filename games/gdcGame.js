@@ -17,15 +17,15 @@ export default () => {
       }
     }
     gcdAns = varX + varY;
-    const checkAns = (gcdAns === userAns);
+    const checkAns = (gcdAns === parseInt(userAns, 10));
     if (checkAns === true) {
       console.log('Correct!');
     } else {
       console.log(`'${userAns}' is wrong answer ;(. Correct answer was '${gcdAns}'.`);
-      console.log(`Let's try again, ${getName}!`);
+      console.log(`Let's try again, ${getName()}!`);
       return 0;
     }
   }
-  console.log(`Congratulations, ${getName}!`);
+  console.log(`Congratulations, ${getName()}!`);
   return 0;
 };

@@ -18,12 +18,12 @@ export default () => {
       } else {
         console.log('\'no\' is wrong answer ;(. Correct answer was \'yes\'.');
       }
-      console.log(`Let's try again, ${getName}!`);
+      console.log(`Let's try again, ${getName()}!`);
       return 0;
     }
   }
   if (numOfCorrectAns === 3) {
-    console.log(`Congratulations, ${getName}!`);
+    console.log(`Congratulations, ${getName()}!`);
   }
   return 0;
 };

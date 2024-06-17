@@ -15,7 +15,7 @@ export default () => {
         expressionAns = variableX + variableY;
         console.log(`Question: ${variableX} + ${variableY}`);
         userAns = readlineSync.question('Your answer: ');
-        checkAns = (expressionAns === userAns);
+        checkAns = (expressionAns === parseInt(userAns, 10));
         break;
       case 2://-
         expressionAns = variableX - variableY;
@@ -27,7 +27,7 @@ export default () => {
         expressionAns = variableX * variableY;
         console.log(`Question: ${variableX} * ${variableY}`);
         userAns = readlineSync.question('Your answer: ');
-        checkAns = (expressionAns === userAns);
+        checkAns = (expressionAns === parseInt(userAns, 10));
         break;
       default:
     }
@@ -35,10 +35,10 @@ export default () => {
       console.log('Correct!');
     } else {
       console.log(`'${userAns}' is wrong answer ;(. Correct answer was '${expressionAns}'.`);
-      console.log(`Let's try again, ${getName}!`);
+      console.log(`Let's try again, ${getName()}!`);
       return 0;
     }
   }
-  console.log(`Congratulations, ${getName}!`);
+  console.log(`Congratulations, ${getName()}!`);
   return 0;
 };
