@@ -17,8 +17,7 @@ export default () => {
       }
     }
     gcdAns = varX + varY;
-    const checkAns = (gcdAns === parseInt(userAns, 10));
-    if (checkAns === true) {
+    if ((gcdAns === parseInt(userAns, 10)) === true) {
       console.log('Correct!');
     } else {
       console.log(`'${userAns}' is wrong answer ;(. Correct answer was '${gcdAns}'.`);
