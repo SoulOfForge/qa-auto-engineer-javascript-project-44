@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import { getName } from '../src/cli.js';
+import { getName } from '../cli.js';
 
 function isPrime(num) {
   if (num === 1 || num === 2) {
