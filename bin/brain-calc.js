@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import greetings from '../src/cli.js';
-import guessExpression from '../src/games/guessExpression.js';
+import gamesPlay from '../src/games/functions/gamesPlay.js';
 
-greetings();
-guessExpression();
+gamesPlay('brain-calc');

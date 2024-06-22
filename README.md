@@ -20,3 +20,16 @@ make public
 ```bash
 npm link // use 'sudo' if you use Linux
 ```
+
+## Use
+
+You can run brain-games just by typing which game you want "brain-calc, brain-even, brain-gcd, brain-prime, brain-progression"
+
+```bash
+brain-calc
+Welcome to the Brain Games!
+May I have your name?
+.
+.
+.
+```

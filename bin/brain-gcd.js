@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import greetings from '../src/cli.js';
-import gcdGame from '../src/games/gcdGame.js';
+import gamesPlay from '../src/games/functions/gamesPlay.js';
 
-greetings();
-gcdGame();
+gamesPlay('brain-gcd');

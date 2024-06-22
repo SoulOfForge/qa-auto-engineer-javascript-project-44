@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import greetings from '../src/cli.js';
-import primeGame from '../src/games/primeGame.js';
+import gamesPlay from '../src/games/functions/gamesPlay.js';
 
-greetings();
-primeGame();
+gamesPlay('brain-prime');
