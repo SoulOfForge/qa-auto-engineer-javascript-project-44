@@ -16,7 +16,7 @@ export default (gameType) => {
             return 0;
         }  
     }
-    console.log(`Congratulations, ${Name}`);
+    console.log(`Congratulations, ${Name}!`);
 
     return 0;
 };
